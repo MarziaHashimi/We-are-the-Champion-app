@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3a3131;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#app-container {
+    background-color: #2982ae97;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-align: center;
+    width: 300px;
+    
+}
+
+#champion-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+#champion-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#endorsement-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: rgba(206, 236, 236, 0.812);
+}
+
+#publish-button {
+    background-color: #317fd8;
+    box-shadow:  0 0 13px rgb(21, 16, 98);
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 0 5px 10px navy;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#default-endorsement {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    background-color: #a0baf684;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+#endorsement-result {
+    font-weight: bold;
+    font-size: 15px;
+    max-height: 150px;
+    overflow:auto;
+    word-wrap: break-word;
+    margin-top: 20px;
+    padding-right: 2px;
+    background-color: #a0baf684;
+    padding: 10px;
+    border-radius: 5px;
+}
